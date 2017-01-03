@@ -1,0 +1,24 @@
+<resources>
+    <string name="app_name">Popular Movies</string>
+    <string name="action_settings">Settings</string>
+    <string name="base_url">http://image.tmdb.org/t/p/w185//</string>
+    <string name="movie_api_url">https://api.themoviedb.org/3/movie/popuar?api_key=2608327415164fea54b06159ecd261a3</string>
+    <string name="title_activity_detail">Movie Detail</string>
+    <string name="title_activity_settings">Settings</string>
+    <string name="pref_title_sort_order">Sort Order</string>
+    <string name="pref_summary_sort_order">Sort Movies by Most Popular or by Top Rated</string>
+    <string name="pref_sort_order_key">sort_order</string>
+    <string name="pref_sort_order_default">popular</string>
+    <string name="movie_db_popular_uri">https://api.themoviedb.org/3/movie/popular?api_key=2608327415164fea54b06159ecd261a3</string>
+    <string name="movie_db_top_rated_uri">https://api.themoviedb.org/3/movie/top_rated?api_key=2608327415164fea54b06159ecd261a3</string>
+    <string-array name="pref_sort_order_entries">
+        <item>Most Popular</item>
+        <item>Top Rated</item>
+    </string-array>
+
+    <string-array name="pref_sort_order_values">
+        <item>popular</item>
+        <item>top_rated</item>
+    </string-array>
+
+</resources>
